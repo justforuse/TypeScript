@@ -21,3 +21,10 @@ console.log(add("allen"))
 console.log(add(false))
 console.log(add(true));
 console.log(add(undefined));
+
+
+function foo(value1:number, value2:number):number;
+function foo(v:string, v2:string):string;
+function foo(a,b,c):any{
+    
+}

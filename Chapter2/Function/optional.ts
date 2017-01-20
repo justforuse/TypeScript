@@ -8,7 +8,7 @@ function calculate(value: number, flag: boolean = false): number {
     }
 }
 
-// 有类型无默认值的可选参数
+// 有类型无默认值的可选参数 ?:
 function calculate2(value: number, flag?: boolean) {
     console.log(flag);
     if (flag) {
